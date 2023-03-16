@@ -8,8 +8,8 @@
 
 let arr = [1, 2, 3];
 
-for (let i = 0; i < arr.length; i++) {
-  arr[i] = arr[i] + 1;
-}
+arr[0] = arr[0] + 1;
+arr[1] = arr[1] + 1;
+arr[2] = arr[2] + 1;
 
 console.log(arr);

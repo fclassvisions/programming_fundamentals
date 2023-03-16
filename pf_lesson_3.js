@@ -14,16 +14,17 @@
  */
 
 let arr = [1, 2, 3];
+let arr2 = ["Hello", "World", "!"];
 let obj = { one: 1, two: 2, three: 3 };
 
-let string = 'Hello World!';
+let string = "Hello World!";
 let number = 100;
 let boolean = false;
 let undef;
 let empty = null;
 
-console.log(arr, typeof arr);
-console.log(obj, typeof obj);
+console.log(arr, typeof arr, arr instanceof Array);
+console.log(obj, typeof obj, obj instanceof Array);
 console.log(string, typeof string);
 console.log(number, typeof number);
 console.log(boolean, typeof boolean);
